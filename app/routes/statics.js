@@ -5,11 +5,11 @@
 module.exports 	= function(app) {
 
     app.get('/', function(req, res) {
-      res.render('index', { title: 'Hello world !' });
+        res.redirect('/todos');
     });
     
-    app.get('*', function(req, res) {
-      res.redirect('/');
+    app.get('/about', function(req, res) {
+      res.render('about', { title: 'About' });
     });
 
 };

@@ -37,7 +37,12 @@
 .nav-wrapper img:hover {
     -webkit-animation-name: shake;
     -webkit-animation-duration: 0.8s;
-    -webkit-animation-iteration- count: infinite;
-    -webkit-animation-timing- function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     -webkit-transform-origin: 50% 100%;
+}
+
+
+.align-right{
+    text-align: right;
 }
